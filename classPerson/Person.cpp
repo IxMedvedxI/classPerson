@@ -39,6 +39,10 @@ Person::Person(const Person& Person)
 	Date.tm_wday = Person.Date.tm_wday;
 }
 
+Person::~Person()
+{
+}
+
 void Person::setName(string name)
 {
 	this->name = name;
